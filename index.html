@@ -3,17 +3,19 @@
 	<head>
 	<meta charset="utf-8">
 	<title>We design things</title>
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+	<link type="text/css" rel="stylesheet" href="css/main.css">
 	</head>
 	<body>
-		<div class="container">
+		
 			<!--------------First Section(header)------------------>
-			<div id="firstSection">
-				<header>
-					<a href="#" id="logo">Tanatos<span>Studio</span></a>
+			<section id="firstSection">
+				<div class="box">
+				<header id="main_header">
+					<a href="#" id="logo"><p></p></a>
 					<nav id="nav">
 						<div class="menu_list"> 
-							Menu
-							<ul>
+							<ul><a class="open_menu">Menu</a>
 								<li><a href="#">About</a></li>
 								<li><a href="#">Subscribe</a></li>
 								<li><a href="#">Our works</a></li>
@@ -26,7 +28,7 @@
 				</header>
 				<section>
 					<header>
-						We design things
+						We design <span>things</span>
 					</header>
 					<p>Lorem Ipsum dolor sit amet, consectetur adipisicing elit,<br>
 						sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
@@ -34,65 +36,70 @@
 					<a href="#">Our works</a>
 				</section>
 				<footer class="down_button">
-					down
+					<a href="#">&#9013;</a>
 				</footer>
-			</div>
+				</div>
+			</section>
 			<!-------------------------------------------------------->
 			<!--------------Second Section(about)--------------------->
-			<div id="secondSection">
-				<div>
-					<img src="" alt="">
-					<h4>Print design</h4>
-					<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+			<section id="secondSection">
+				<div class="box">
+					<div>
+						<img src="img/print-design.png" alt="print">
+						<h3>Print design</h3>
+						<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+					</div>
+					<div>
+						<img src="img/web-design.png" alt="web">
+						<h3>Web design</h3>
+						<p>Incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+					</div>
+					<div>
+						<img src="img/app-design.png" alt="app">
+						<h3>App design</h3>
+						<p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+					</div>
+					<div>
+						<img src="img/logo-design.png" alt="logo">
+						<h3>Logo design</h3>
+						<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillium dolore eu</p>
+					</div>
 				</div>
-				<div>
-					<img src="" alt="">
-					<h4>Web design</h4>
-					<p>Incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-				</div>
-				<div>
-					<img src="" alt="">
-					<h4>App design</h4>
-					<p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
-				</div>
-				<div>
-					<img src="" alt="">
-					<h4>Logo design</h4>
-					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillium dolore eu</p>
-				</div>
-			</div>
+			</section>
 			<!----------------------------------------------------------->
 			<!--------------Third Section(subscribe)--------------------->			
-			<div id="thirdSection">
-				<form action="#" id="subscribe">
-					<input type="email" placeholder="Enter Your email adress for newsletter">
-					<button type="submit">Subscribe</button>
-				</form>
-			</div>
+			<section id="thirdSection">
+				<div class="box">
+					<form action="#" id="subscribe">
+						<input type="email" placeholder="Enter Your email adress for newsletter" required>
+						<button type="submit">Subscribe</button>
+					</form>
+				</div>
+			</section>
 			<!----------------------------------------------------------->
 			
 			<!--------------Fouth Section(our works)--------------------->		
-			<div id="fouthSection">
+			<section id="fouthSection">
 			
-			</div>
+			</section>
 			<!------------------------------------------------------->
 			<!--------------Fith Section(review)--------------------->	
-			<div id="fithSection">
+			<section id="fithSection">
 			
-			</div>
+			</section>
 			<!---------------------------------------------------------->
 			<!--------------Sixth Section(our team)--------------------->	
-			<div id="sixthSection">
+			<section id="sixthSection">
 			
-			</div>
+			</section>
 			<!-------------------------------------------------------------->
 			<!--------------Seventh Section(contact us)--------------------->
-			<div id="seventhSection">
+			<section id="seventhSection">
 			
-			</div>
+			</section>
 			<!-------------------------------------------------------------->
 			<footer>
 			</footer>
-		</div>
+		
 	</body>
 </html>
